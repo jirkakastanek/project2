@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/historie.html" afterPath="$PROJECT_DIR$/historie.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oceneni.html" afterPath="$PROJECT_DIR$/oceneni.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vyroba.html" afterPath="$PROJECT_DIR$/vyroba.html" />
     </list>
     <ignored path="git.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5215909">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+            <state vertical-scroll-proportion="-14.384615">
+              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -66,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vyroba.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vyroba.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vyroba.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.28977272">
+              <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -79,8 +80,8 @@
       <file leaf-file-name="oceneni.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oceneni.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state vertical-scroll-proportion="-11.769231">
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -89,8 +90,8 @@
       <file leaf-file-name="historie.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/historie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4528303">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state vertical-scroll-proportion="-3.528302">
+              <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -128,11 +129,11 @@
       <list>
         <option value="$PROJECT_DIR$/css/general.css" />
         <option value="$PROJECT_DIR$/Historie.html" />
-        <option value="$PROJECT_DIR$/vyroba.html" />
         <option value="$PROJECT_DIR$/historiee.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/historie.html" />
         <option value="$PROJECT_DIR$/oceneni.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/vyroba.html" />
       </list>
     </option>
   </component>
@@ -667,12 +668,12 @@
       <created>1510478666603</created>
       <option name="number" value="Default" />
       <updated>1510478666603</updated>
-      <workItem from="1510478668419" duration="1570000" />
+      <workItem from="1510478668419" duration="1888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1570000" />
+    <option name="totallyTimeSpent" value="1888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -742,34 +743,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vyroba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oceneni.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/historie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4528303">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state vertical-scroll-proportion="-3.528302">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5215909">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oceneni.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vyroba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28977272">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
           <folding />
         </state>
       </provider>
