@@ -205,3 +205,61 @@ section:nth-child(even) article > h2 {
   color: #FFF;
   font-size: 2em;
 }
+
+#staff h3 {
+  text-align: center;
+}
+#staff img {
+  border-radius: 50%;
+}
+
+#products, #awards, #makingof, #history {
+  padding-top: 0px;
+}
+
+#products h3, #awards h3,  #makingof h3 {
+  font-family: 'Amatic SC';
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+#products img {
+  width: 100%;
+}
+
+#products .legend {
+  font-family: 'Amatic SC';
+  text-transform: uppercase;
+  color: #888;
+  line-height: 40px;
+  font-size: 2em;
+  padding: 15px;
+}
+#header-pages4 {
+  height: 160px;
+  background-image: url('../img/header-pages4.jpg');
+  background-size: cover;
+  background-position: top center;
+}
+#header-pages3 {
+  height: 160px;
+  background-image: url('../img/header-pages3.jpg');
+}
+#header-pages2 {
+  height: 160px;
+  background-image: url('../img/header-pages2.jpg');
+}
+#header-pages {
+  height: 160px;
+  background-image: url('../img/header-pages.jpg');
+}
+ .shadow {
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+#header-pages h1, #header-pages2 h1, #header-pages3 h1, #header-pages4 h1 {
+  font-family: 'Amatic SC';
+  font-size: 3.2em;
+  color: #FFF;
+}

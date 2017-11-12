@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="...">
   <meta name="keywords" content="...">
-  <title>Title of the document</title>
+  <title>Ron Zacapa: Home</title>
 
   <link href="css/libs/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/libs/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -21,6 +21,7 @@
     <nav class="pull-right">
       <ul>
         <li><a class="active" href="./index.html">Úvod</a></li>
+        <li><a href="./produkty.html">Produkty</a></li>
         <li><a href="./historie.html">Historie</a></li>
         <li><a href="./oceneni.html">Ocenění</a></li>
         <li><a href="./vyroba.html">Výroba</a></li>
@@ -30,13 +31,12 @@
 </header>
 <main>
   <section id="slider">
+    <img class="mySlides" src="./img/intro5.jpg" />
     <img class="mySlides" src="./img/intro1.jpg" />
-    <img class="mySlides" src="./img/intro2.jpg" />
     <img class="mySlides" src="./img/intro3.jpg" />
     <img class="mySlides" src="./img/intro4.jpg" />
-    <img class="mySlides" src="./img/intro5.jpg" />
-    <button class="btn btn-outline btn-right-arrow" onclick="plusDivs(-1)">&#10094;</button>
-    <button class="btn btn-outline btn-left-arrow" onclick="plusDivs(+1)">&#10095;</button>
+    <button class="btn btn-outline btn-right-arrow" onclick="slide(-1)">&#10094;</button>
+    <button class="btn btn-outline btn-left-arrow" onclick="slide(+1)">&#10095;</button>
   </section>
   <section id="about-us">
     <div class="container">
@@ -59,52 +59,34 @@
       </div>
     </div>
   </section>
-  <section id="teaching">
+  <section id="products">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <article>
-            <h2>Výuka</h2>
+        <article class="col-md-12">
+            <h2>Produkty</h2>
             <div class="row">
-              <div class="col-md-3">
-                <img src="img/whisky.jpg" alt="img1"/>
-                <h4>Produkt 1</h4>
-              </div>
-              <div class="col-md-3">
-                <img src="img/wine.jpg" alt="img1"/>
-                <h4>Produkt 2</h4>
-              </div>
-              <div class="col-md-3">
-                <img src="img/whisky.jpg" alt="img1"/>
-                <h4>Produkt 3</h4>
-              </div>
-              <div class="col-md-3">
-                <img src="img/wine.jpg" alt="img1"/>
-                <h4>Produkt 4</h4>
-              </div>
+              <article class="col-md-3">
+                <img src="./img/ron_zacapa_15.jpg" alt="Ron Zacapa 15 YO"/>
+                <h3>Ron Zacapa 15 YO</h3>
+                <a href="./produkty.html" class="btn">Zjistit více</a>
+              </article>
+              <article class="col-md-3">
+                <img src="./img/ron_zacapa_centenario_sistema_23.jpg" alt="Ron Zacapa 23 YO"/>
+                <h3>Ron Zacapa 23 YO</h3>
+                <a href="./produkty.html" class="btn">Zjistit více</a>
+              </article>
+              <article class="col-md-3">
+                <img src="./img/ron_zacapa_negra.jpg" alt="Ron Zacapa 23 YO Negra"/>
+                <h3>Ron Zacapa 23 YO Negra</h3>
+                <a href="./produkty.html" class="btn">Zjistit více</a>
+              </article>
+              <article class="col-md-3">
+                <img src="./img/ron_zacapa_straight_cask.jpg" alt="Ron Zacapa Straight Cask"/>
+                <h3>Ron Zacapa Straight Cask</h3>
+                <a href="./produkty.html" class="btn">Zjistit více</a>
+              </article>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, lorem nec suscipit lacinia,
-                  justo
-                  ex
-                  faucibus leo, ac porta purus ex non augue. Quisque lacinia arcu et accumsan hendrerit. Integer semper
-                  finibus
-                  nisl ut ullamcorper. Nullam dictum lobortis dui, in porttitor risus cursus ac. Suspendisse hendrerit
-                  sagittis
-                  eros dapibus iaculis. Fusce mollis accumsan nunc ac dignissim. Phasellus tincidunt dignissim ligula
-                  vel
-                  rutrum.
-                  In diam nisi, viverra et tincidunt vitae, pellentesque a nisl. Aenean at tincidunt est, non molestie
-                  massa.
-                  Suspendisse accumsan nibh a augue convallis gravida. Nam convallis ullamcorper eros, sed aliquam velit
-                  lacinia
-                  non. Nullam scelerisque in velit eget condimentum.</p>
-                <a href="#" class="btn">Zjistit více</a>
-              </div>
-            </div>
-          </article>
-        </div>
+        </article>
       </div>
     </div>
   </section>
@@ -142,51 +124,18 @@
   <section id="staff">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <article>
+          <article class="col-md-12">
             <h2>Naši zaměstnanci</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, lorem nec suscipit lacinia, justo
-              ex
-              faucibus leo, ac porta purus ex non augue. Quisque lacinia arcu et accumsan hendrerit. Integer semper
-              finibus
-              nisl ut ullamcorper. Nullam dictum lobortis dui, in porttitor risus cursus ac. Suspendisse hendrerit
-              sagittis
-              eros dapibus iaculis. Fusce mollis accumsan nunc ac dignissim. Phasellus tincidunt dignissim ligula vel
-              rutrum.
-              In diam nisi, viverra et tincidunt vitae, pellentesque a nisl. Aenean at tincidunt est, non molestie
-              massa.
-              Suspendisse accumsan nibh a augue convallis gravida. Nam convallis ullamcorper eros, sed aliquam velit
-              lacinia
-              non. Nullam scelerisque in velit eget condimentum.</p>
-            <table>
-              <tr>
-                <th>Jméno</th>
-                <th>Pozice</th>
-                <th>email</th>
-              </tr>
-              <tr>
-                <td>Franta Novák</td>
-                <td>Lorem ipsum</td>
-                <td>franta@firma.cz</td>
-              </tr>
-              <tr>
-                <td>Jirka Novák</td>
-                <td>Lorem ipsum</td>
-                <td>jirka@firma.cz</td>
-              </tr>
-              <tr>
-                <td>Pepa Novák</td>
-                <td>Lorem ipsum</td>
-                <td>pepa@firma.cz</td>
-              </tr>
-              <tr>
-                <td>Igor Novák</td>
-                <td>Lorem ipsum</td>
-                <td>igor@firma.cz</td>
-              </tr>
-            </table>
+            <p>Každý den tvrdě pracující zaměstnanci naší destilerie.</p>
           </article>
-        </div>
+        <article class="col-md-2">
+          <img src="./img/zamestnanec1.jpg" />
+          <h3>Karel Wiedermann</h3>
+        </article>
+        <article class="col-md-2">
+          <img src="./img/zamestnanec2.jpg" />
+          <h3>Jiří Kaštánek</h3>
+        </article>
       </div>
     </div>
   </section>
@@ -207,7 +156,7 @@
   var slideIndex = 1;
   showDivs(slideIndex);
 
-  function plusDivs(n) {
+  function slide(n) {
     showDivs(slideIndex += n);
   }
 
@@ -220,6 +169,21 @@
       x[i].style.display = "none";
     }
     x[slideIndex-1].style.display = "block";
+  }
+
+  var slideIndex2 = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex2++;
+    if (slideIndex2 > slides.length) {slideIndex2 = 1}
+    slides[slideIndex2-1].style.display = "block";
+    setTimeout(showSlides, 4000);
   }
 
 </script>
