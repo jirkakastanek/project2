@@ -4,9 +4,12 @@
 
 /* general */
 
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans');
+
 body {
   margin: 0;
   height: auto;
+  font-family: 'Open Sans';
 }
 
 img {
@@ -14,14 +17,14 @@ img {
   opacity: 1;
   transition: 0.3s;
   border-radius: 2px;
-  border-bottom: 4px solid #3e8f3e;
+  /*border-bottom: 4px solid #d7b88c;*/
 }
 
 /*
 img:hover {
   opacity: 0.8;
   transition: 0.3s;
-  border-bottom: 4px solid #1b6d85;
+  border-bottom: 4px solid #2a1f1b;
 }
 */
 
@@ -48,7 +51,7 @@ input, select, textarea {
 input:hover, select:hover, textarea:hover,
 input:focus, select:focus, textarea:focus {
   background-color: #FFF;
-  color: #1b6d85;
+  color: #2a1f1b;
   outline: 0;
   transition: 0.3s;
 }
@@ -56,23 +59,23 @@ input:focus, select:focus, textarea:focus {
 .btn {
   padding: 8px 12px;
   color: #FFF;
-  background-color: #1b6d85;
+  background-color: #2a1f1b;
   border-radius: 4px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   transition: .3s;
 }
 
 .btn:hover, .btn.active {
   text-decoration: none;
   color: #FFF;
-  background-color: #155466;
+  background-color: #d7b88c;
   transition: .3s;
 }
 
 .btn-outline {
   color: #FFF;
   background-color: transparent;
-  border: 2px solid #FFF;
+  border: 1px solid #FFF;
 }
 
 .btn-outline:hover {
@@ -90,30 +93,31 @@ input:focus, select:focus, textarea:focus {
 .btn-link:hover {
   background-color: transparent;
   text-decoration: underline;
-  color: #1b6d85;
+  color: #2a1f1b;
 }
 
 /* main page */
 
 img:hover ~ h4 {
-  color: #1b6d85;
+  color: #2a1f1b;
 }
 
 header, footer {
   color: #FFF;
-  background-color: #3e8f3e;
+  background-color: #d7b88c;
 }
 header a.brand {
-  padding: 15px 0px;
+  padding: 25px 0px;
   margin-left: 10px;
   color: #FFF;
-  font-weight: bold;
+  font-family: 'Amatic SC';
+  font-size: 2.4em;
   text-decoration: none;
   transition: 0.3s;
 }
 
 header a.brand:hover {
-  color: #000;
+  color: #2a1f1b;
   transition: 0.3s;
 }
 header nav ul {
@@ -122,20 +126,29 @@ header nav ul {
 }
 header nav ul li {
   float: left;
-  margin-right: 20px;
+  margin-top: 10px;
 }
 header nav ul li a {
+  color: #2a1f1b;
+  font-family: 'Amatic SC';
+  font-size: 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+}
+header nav ul li a:hover, header nav ul li a.active {
+  text-decoration: none;
+  transition: 0.2s;
   color: #FFF !important;
-  text-decoration: none;
-  padding: 20px 0px 5px 0px;
-  transition: 0.5s;
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid #FFF;
 }
-header nav ul li a:hover {
-  text-decoration: none;
-  transition: 0.5s;
-  border-bottom: 2px solid #FFF;
+
+.text-justify {
+  text-align: justify;
 }
+
 article {
 }
 section {
@@ -143,11 +156,14 @@ section {
 }
 section article > h2 {
   color: #000;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-family: 'Amatic SC';
   margin-bottom: 40px;
 }
 
 section:nth-child(even) {
-  background-color: #1b6d85;
+  background-color: #2a1f1b;
   color: #FFF;
 }
 section:nth-child(even) article > h2 {
