@@ -185,14 +185,19 @@ section:nth-child(even) article > h2 {
 #age-confirmation {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: #2a1f1b;
+  background-color: rgba(0,0,0,0.8);
   color: #FFF;
   z-index: 9999;
 }
 
 #age-confirmation .row .col-md-12 .content {
   margin: 100px auto;
+  width: 60%;
+  padding: 45px;
   text-align: center;
+  background-color: #2a1f1b;
+  color: #FFF;
+  border-radius: 4px;
 }
 
 .btn-right-arrow {
