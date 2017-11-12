@@ -30,14 +30,13 @@
 </header>
 <main>
   <section id="slider">
-    <div class="container">
-      <div class="row">
-        <article class="col-md-12">
-          <h1>Česká zemědělská univerzita v Praze</h1>
-          <p><em>Živá univerzita...</em></p>
-        </article>
-      </div>
-    </div>
+    <img class="mySlides" src="./img/intro1.jpg" />
+    <img class="mySlides" src="./img/intro2.jpg" />
+    <img class="mySlides" src="./img/intro3.jpg" />
+    <img class="mySlides" src="./img/intro4.jpg" />
+    <img class="mySlides" src="./img/intro5.jpg" />
+    <button class="btn btn-outline btn-right-arrow" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="btn btn-outline btn-left-arrow" onclick="plusDivs(+1)">&#10095;</button>
   </section>
   <section id="about-us">
     <div class="container">
@@ -202,6 +201,28 @@
     </div>
   </div>
 </footer>
+
+<script>
+
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+
+</script>
 
 
 </body>

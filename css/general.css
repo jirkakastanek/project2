@@ -17,11 +17,13 @@ img {
   border-bottom: 4px solid #3e8f3e;
 }
 
+/*
 img:hover {
   opacity: 0.8;
   transition: 0.3s;
   border-bottom: 4px solid #1b6d85;
 }
+*/
 
 form .row {
   padding: 10px 0px;
@@ -152,7 +154,7 @@ section:nth-child(even) article > h2 {
   color: #FFF;
 }
 #slider {
-  padding: 100px 0px;
+  padding: 0px 0px;
   text-align: center;
   background: url("../img/slider.jpg");
   background-size: cover;
@@ -160,4 +162,30 @@ section:nth-child(even) article > h2 {
 #slider article.col-md-12 {
   background-color: rgba(0, 0, 0, 0.4);
   color: #FFF;
+}
+
+#slider {
+  position: relative;
+}
+
+.btn-right-arrow {
+  position: absolute;
+  left: 0;
+  top:calc(50% - 30px);
+  border-color: transparent;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: #FFF;
+  font-size: 2em;
+}
+
+.btn-left-arrow {
+  position: absolute;
+  right: 0;
+  top:calc(50% - 30px);
+  border-color: transparent;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #FFF;
+  font-size: 2em;
 }
