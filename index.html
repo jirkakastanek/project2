@@ -15,6 +15,20 @@
 
 </head>
 <body>
+<div id="age-confirmation">
+  <div class="container">
+    <div class="row">
+      <article class="col-md-12">
+        <div class="content">
+        <h2>Potvrzení věku</h2>
+        <p>Potvrzuji stiksnutím tlačítka "Ano", že je mi minimálně 18 let. Po potvrzení můžete pokračovat v prohlížení stránky.</p>
+        <a href="#" id="confirm" class="btn btn-outline" onclick="ageConfirmation(1);">Ano</a>&nbsp;&nbsp;<a href="#" id="denied" onclick="ageConfirmation(0);" class="btn btn-outline">Ne</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+</div>
 <header>
   <div class="container">
     <a href="./index.html" class="brand pull-left">Ron Zacapa</a>
@@ -31,10 +45,10 @@
 </header>
 <main>
   <section id="slider">
-    <img class="mySlides" src="./img/intro5.jpg" />
-    <img class="mySlides" src="./img/intro1.jpg" />
-    <img class="mySlides" src="./img/intro3.jpg" />
-    <img class="mySlides" src="./img/intro4.jpg" />
+    <img class="mySlides" src="./img/intro5.jpg"/>
+    <img class="mySlides" src="./img/intro1.jpg"/>
+    <img class="mySlides" src="./img/intro3.jpg"/>
+    <img class="mySlides" src="./img/intro4.jpg"/>
     <button class="btn btn-outline btn-right-arrow" onclick="slide(-1)">&#10094;</button>
     <button class="btn btn-outline btn-left-arrow" onclick="slide(+1)">&#10095;</button>
   </section>
@@ -63,29 +77,29 @@
     <div class="container">
       <div class="row">
         <article class="col-md-12">
-            <h2>Produkty</h2>
-            <div class="row">
-              <article class="col-md-3">
-                <img src="./img/ron_zacapa_15.jpg" alt="Ron Zacapa 15 YO"/>
-                <h3>Ron Zacapa 15 YO</h3>
-                <a href="./produkty.html" class="btn">Zjistit více</a>
-              </article>
-              <article class="col-md-3">
-                <img src="./img/ron_zacapa_centenario_sistema_23.jpg" alt="Ron Zacapa 23 YO"/>
-                <h3>Ron Zacapa 23 YO</h3>
-                <a href="./produkty.html" class="btn">Zjistit více</a>
-              </article>
-              <article class="col-md-3">
-                <img src="./img/ron_zacapa_negra.jpg" alt="Ron Zacapa 23 YO Negra"/>
-                <h3>Ron Zacapa 23 YO Negra</h3>
-                <a href="./produkty.html" class="btn">Zjistit více</a>
-              </article>
-              <article class="col-md-3">
-                <img src="./img/ron_zacapa_straight_cask.jpg" alt="Ron Zacapa Straight Cask"/>
-                <h3>Ron Zacapa Straight Cask</h3>
-                <a href="./produkty.html" class="btn">Zjistit více</a>
-              </article>
-            </div>
+          <h2>Produkty</h2>
+          <div class="row">
+            <article class="col-md-3">
+              <img src="./img/ron_zacapa_15.jpg" alt="Ron Zacapa 15 YO"/>
+              <h3>Ron Zacapa 15 YO</h3>
+              <a href="./produkty.html" class="btn">Zjistit více</a>
+            </article>
+            <article class="col-md-3">
+              <img src="./img/ron_zacapa_centenario_sistema_23.jpg" alt="Ron Zacapa 23 YO"/>
+              <h3>Ron Zacapa 23 YO</h3>
+              <a href="./produkty.html" class="btn">Zjistit více</a>
+            </article>
+            <article class="col-md-3">
+              <img src="./img/ron_zacapa_negra.jpg" alt="Ron Zacapa 23 YO Negra"/>
+              <h3>Ron Zacapa 23 YO Negra</h3>
+              <a href="./produkty.html" class="btn">Zjistit více</a>
+            </article>
+            <article class="col-md-3">
+              <img src="./img/ron_zacapa_straight_cask.jpg" alt="Ron Zacapa Straight Cask"/>
+              <h3>Ron Zacapa Straight Cask</h3>
+              <a href="./produkty.html" class="btn">Zjistit více</a>
+            </article>
+          </div>
         </article>
       </div>
     </div>
@@ -124,22 +138,21 @@
   <section id="staff">
     <div class="container">
       <div class="row">
-          <article class="col-md-12">
-            <h2>Naši zaměstnanci</h2>
-            <p>Každý den tvrdě pracující zaměstnanci naší destilerie.</p>
-          </article>
+        <article class="col-md-12">
+          <h2>Naši zaměstnanci</h2>
+          <p>Každý den tvrdě pracující zaměstnanci naší destilerie.</p>
+        </article>
         <article class="col-md-2">
-          <img src="./img/zamestnanec1.jpg" />
+          <img src="./img/zamestnanec1.jpg"/>
           <h3>Karel Wiedermann</h3>
         </article>
         <article class="col-md-2">
-          <img src="./img/zamestnanec2.jpg" />
+          <img src="./img/zamestnanec2.jpg"/>
           <h3>Jiří Kaštánek</h3>
         </article>
       </div>
     </div>
   </section>
-
 </main>
 <footer>
   <div class="container">
@@ -163,12 +176,17 @@
   function showDivs(n) {
     var i;
     var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length} ;
+    if (n > x.length) {
+      slideIndex = 1
+    }
+    if (n < 1) {
+      slideIndex = x.length
+    }
+    ;
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";
     }
-    x[slideIndex-1].style.display = "block";
+    x[slideIndex - 1].style.display = "block";
   }
 
   var slideIndex2 = 0;
@@ -181,10 +199,25 @@
       slides[i].style.display = "none";
     }
     slideIndex2++;
-    if (slideIndex2 > slides.length) {slideIndex2 = 1}
-    slides[slideIndex2-1].style.display = "block";
+    if (slideIndex2 > slides.length) {
+      slideIndex2 = 1
+    }
+    slides[slideIndex2 - 1].style.display = "block";
     setTimeout(showSlides, 4000);
   }
+  
+
+  function ageConfirmation(bool){
+    if(bool == 1){
+      document.getElementById("age-confirmation").style.display = "none";
+    }else if(bool == 0){
+      document.getElementById("age-confirmation").style.display = "display";
+    }else{
+      alert("Něco se pokazilo, prosíme akci opakujte načtením stránky znova. Děkujeme");
+
+    }
+  }
+
 
 </script>
 

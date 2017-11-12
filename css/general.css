@@ -171,17 +171,28 @@ section:nth-child(even) article > h2 {
 }
 #slider {
   padding: 0px 0px;
-  text-align: center;
-  background: url("../img/slider.jpg");
-  background-size: cover;
-}
-#slider article.col-md-12 {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #FFF;
 }
 
 #slider {
   position: relative;
+}
+#age-confirmation h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-family: 'Amatic SC';
+  margin-bottom: 40px;
+}
+#age-confirmation {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #2a1f1b;
+  color: #FFF;
+  z-index: 9999;
+}
+
+#age-confirmation .row .col-md-12 .content {
+  margin: 100px auto;
+  text-align: center;
 }
 
 .btn-right-arrow {
