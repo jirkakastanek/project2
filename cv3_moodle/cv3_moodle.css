@@ -1,0 +1,77 @@
+/* Pro správné zobrazení na mobilních zařízeních musí být v <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ https://css-tricks.com/snippets/html/responsive-meta-tag/
+ */
+section div,
+header .background > div {
+    padding: 3rem 1rem;
+    max-width:100%;
+}
+footer {
+    padding: 1rem 1rem;
+}
+
+section:nth-child(odd) {
+    background-color: #245e75;
+    color: white;
+}
+nav {
+    background-color: black;
+}
+nav a {
+    padding: 2rem 3rem;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Verdana, sans-serif;
+}
+nav a:hover,
+nav a:focus,
+nav a:active {
+  background-color: #245e75;
+  color: white;
+}
+
+#produkty figure{
+    text-align: center;
+}
+
+form input,
+form textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: 0.15rem solid rgba(255, 255, 255, 0.2);
+    background-color: #245e75;
+    color: white;
+    display: block;
+    width: 75%;
+}
+
+form button {
+    background-color: white;
+    color: #245e75;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.6rem 0.8rem;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+/*// Medium screens*/
+@media only screen and (min-width: 40.063em) {
+
+}
+
+/*// Large screens*/
+@media only screen and (min-width: 64.063em) {
+
+}
+
+/*// XLarge screens*/
+@media only screen and (min-width: 90.063em) {
+
+}
