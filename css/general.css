@@ -73,14 +73,15 @@ input:focus, select:focus, textarea:focus {
 }
 
 .btn-outline {
-  color: #FFF;
+  color: #d7b88c;
   background-color: transparent;
-  border: 1px solid #FFF;
+  border: 1px solid #d7b88c;
 }
 
 .btn-outline:hover {
   color: #000;
   background-color: #FFF;
+  border: 1px solid #FFF;
 }
 
 .btn-link {
