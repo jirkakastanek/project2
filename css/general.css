@@ -106,6 +106,16 @@ header, footer {
   color: #FFF;
   background-color: #d7b88c;
 }
+
+footer a {
+  color: #2a1f1b;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #110d0b;
+  transition: 0.3s;
+}
 header a.brand {
   padding: 25px 0px;
   margin-left: 10px;
@@ -149,6 +159,14 @@ header nav ul li a:hover, header nav ul li a.active {
   text-align: justify;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
 article {
 }
 section {
@@ -165,6 +183,10 @@ section article > h2 {
 section:nth-child(even) {
   background-color: #2a1f1b;
   color: #FFF;
+}
+
+section:nth-child(even) a {
+  color: #d7b88c;
 }
 section:nth-child(even) article > h2 {
   color: #FFF;

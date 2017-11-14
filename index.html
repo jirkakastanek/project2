@@ -20,9 +20,13 @@
     <div class="row">
       <article class="col-md-12">
         <div class="content">
-        <h2>Potvrzení věku</h2>
-        <p>Potvrzuji stiksnutím tlačítka "Ano", že je mi minimálně 18 let. Po potvrzení můžete pokračovat v prohlížení stránky.</p>
-        <a href="#" id="confirm" class="btn btn-outline" onclick="ageConfirmation(1);">Ano</a>&nbsp;&nbsp;<a href="#" id="denied" onclick="ageConfirmation(0);" class="btn btn-outline">Ne</a>
+          <h2>Potvrzení věku</h2>
+          <p>Potvrzuji stiksnutím tlačítka "Ano", že je mi minimálně 18 let. Po potvrzení můžete pokračovat v prohlížení
+            stránky.</p>
+          <a href="#" id="confirm" class="btn btn-outline" onclick="ageConfirmation(1);">Ano</a>&nbsp;&nbsp;<a href="#"
+                                                                                                               id="denied"
+                                                                                                               onclick="ageConfirmation(0);"
+                                                                                                               class="btn btn-outline">Ne</a>
         </div>
       </article>
     </div>
@@ -57,6 +61,7 @@
       <div class="row">
         <article class="col-md-12">
           <h2>Semestrální projekt web design</h2>
+          <p>Toto je semestrální projekt na předmět Webdesign. Tento projekt se nachází na stránkách <a href="https://github.com/jirkakastanek/project2">Github</a>.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, lorem nec suscipit lacinia, justo ex
             faucibus leo, ac porta purus ex non augue. Quisque lacinia arcu et accumsan hendrerit. Integer semper
             finibus
@@ -109,27 +114,39 @@
       <div class="row">
         <div class="col-md-12">
           <article>
-            <h2>Věda a výzkum</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, lorem nec suscipit lacinia, justo
-              ex
-              faucibus leo, ac porta purus ex non augue. Quisque lacinia arcu et accumsan hendrerit. Integer semper
-              finibus
-              nisl ut ullamcorper. Nullam dictum lobortis dui, in porttitor risus cursus ac. Suspendisse hendrerit
-              sagittis
-              eros dapibus iaculis. Fusce mollis accumsan nunc ac dignissim. Phasellus tincidunt dignissim ligula vel
-              rutrum.
-              In diam nisi, viverra et tincidunt vitae, pellentesque a nisl. Aenean at tincidunt est, non molestie
-              massa.
-              Suspendisse accumsan nibh a augue convallis gravida. Nam convallis ullamcorper eros, sed aliquam velit
-              lacinia
-              non. Nullam scelerisque in velit eget condimentum.</p>
-            <ul>
-              <li>Jedna</li>
-              <li>Dva</li>
-              <li>Tři</li>
-              <li>Deset</li>
-              <li>Dvacet</li>
-            </ul>
+            <h2>Jaký drink si můžu z Ron Zacapy namíchat?</h2>
+            <p>Přinášíme Vám unikátní video návody, podle kterých si můžete namíchat zvolené drinky.</p>
+          </article>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <article>
+            <h3>Daiquiri</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/q_W3muJX2sw" frameborder="0"
+                    allowfullscreen></iframe>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article>
+            <h3>Storm in a Teacup Cocktail</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4J1kPDxDBJY" frameborder="0"
+                    allowfullscreen></iframe>
+          </article>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-6">
+          <article>
+            <h3>Zacoco Cocktail</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Et0WNn-zQAQ" frameborder="0" allowfullscreen></iframe>
+          </article>
+        </div>
+        <div class="col-md-6">
+          <article>
+            <h3>Spiced Apple Crumble Cocktail</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RB4u42Vk0pk" frameborder="0" allowfullscreen></iframe>
           </article>
         </div>
       </div>
@@ -145,10 +162,12 @@
         <article class="col-md-2">
           <img src="./img/zamestnanec1.jpg"/>
           <h3>Karel Wiedermann</h3>
+          <p class="text-center"><a class="btn" href="https://www.linkedin.com/in/karel-wiedermann-044906109/">Více informací</a></p>
         </article>
         <article class="col-md-2">
           <img src="./img/zamestnanec2.jpg"/>
           <h3>Jiří Kaštánek</h3>
+          <p class="text-center"><a class="btn" href="https://www.linkedin.com/in/jiri-kastanek-994161142/">Více informací</a></p>
         </article>
       </div>
     </div>
@@ -157,8 +176,11 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <p>Vytvořeno pro účely výuky na PEF ČZU v Praze (2017).</p>
+      </div>
+      <div class="col-md-6">
+        <p class="text-right">Projekt se nachází na stránkách <a href="https://github.com/jirkakastanek/project2">Github</a></p>
       </div>
     </div>
   </div>
@@ -207,12 +229,12 @@
   }
 
 
-  function ageConfirmation(bool){
-    if(bool == 1){
+  function ageConfirmation(bool) {
+    if (bool == 1) {
       document.getElementById("age-confirmation").style.display = "none";
-    }else if(bool == 0){
+    } else if (bool == 0) {
       document.getElementById("age-confirmation").style.display = "display";
-    }else{
+    } else {
       alert("Něco se pokazilo, prosíme akci opakujte načtením stránky znova. Děkujeme");
 
     }
