@@ -213,7 +213,7 @@ section:nth-child(even) article > h2 {
   z-index: 9999;
 }
 
-#age-confirmation .row .col-md-12 .content {
+#age-confirmation .content {
   margin: 100px auto;
   width: 60%;
   padding: 45px;
@@ -302,3 +302,26 @@ section:nth-child(even) article > h2 {
   font-size: 3.2em;
   color: #FFF;
 }
+
+/* computers and other higher res */
+@media only screen and (min-width: 992px) {
+  #age-confirmation .content {
+    width: 40%;
+  }
+}
+
+/* tablet devices */
+@media only screen and (max-width: 992px) {
+  #age-confirmation .content {
+    width: 60%;
+  }
+}
+
+/* mobile devices */
+@media only screen and (max-width: 768px) {
+
+  #age-confirmation .content {
+    width: 100%;
+  }
+}
+
